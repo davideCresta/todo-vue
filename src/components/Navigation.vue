@@ -32,7 +32,7 @@
 
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-app-bar-title class="pl-10">
+      <v-app-bar-title class="text-no-wrap grow" style="max-width: 400px;">
         {{ username || "Guest" }} Todo
       </v-app-bar-title>
 
