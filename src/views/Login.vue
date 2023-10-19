@@ -3,7 +3,7 @@
         <v-container>
             <v-row justify="center">
                 <v-col cols="12" sm="8" md="4">
-                    <v-card class="elevate-card" height="250"> <!-- Imposta l'altezza desiderata -->
+                    <v-card class="elevate-card" height="250">
                         <v-card-title class="headline">Accesso</v-card-title>
                         <v-card-text>
                             <v-text-field v-model="username" label="Nome utente" outlined dense

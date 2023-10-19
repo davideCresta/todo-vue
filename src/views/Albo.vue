@@ -36,7 +36,7 @@ export default {
         };
     },
     created() {
-        this.loadComic(100); // Carica la vignetta 100 all'avvio
+        this.loadComic(100); 
     },
     methods: {
         loadComic(comicNum) {

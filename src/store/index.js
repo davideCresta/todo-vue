@@ -37,12 +37,12 @@ export default new Vuex.Store({
       commit("completeTask", taskIndex);
     },
     updateUsername({ commit }, username) {
-      commit('setUsername', username); // Chiama la mutazione per aggiornare il dato username
+      commit('setUsername', username); 
     },
     saveEditedTask(index) {
-      const newTitle = this.tasks[index].title; // Ottenere il nuovo titolo dall'input
+      const newTitle = this.tasks[index].title;
       this.editedTaskIndex = null;
-      this.$store.dispatch("updateTask", { index, newTitle }); // Chiamare l'azione con il nuovo titolo
+      this.$store.dispatch("updateTask", { index, newTitle });
     },
     cancelEdit({ commit }, index) {
       commit('cancelTaskUpdate', index);
